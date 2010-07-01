@@ -388,3 +388,372 @@ Rendering front/index
 [0m
   [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
 Completed in 452ms (View: 442, DB: 9) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing FrontController#index (for 127.0.0.1 at 2010-06-30 23:25:48) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering front/index
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/core.dryml in 0.02s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_core.dryml in 0.24s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_support.dryml in 0.02s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_document_tags.dryml in 0.10s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_pages.dryml in 0.24s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_editing.dryml in 0.09s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_forms.dryml in 0.41s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_navigation.dryml in 0.05s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_plus.dryml in 0.16s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_generics.dryml in 0.03s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_lifecycles.dryml in 0.01s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_summary.dryml in 0.14s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_user_pages.dryml in 0.30s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid.dryml in 1.82s
+  DRYML: Compiled app/views/taglibs/auto/rapid/cards.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/auto/rapid/pages.dryml in 0.20s
+  DRYML: Compiled app/views/taglibs/auto/rapid/forms.dryml in 0.04s
+  DRYML: Compiled app/views/taglibs/themes/clean/clean.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/application.dryml in 2.10s
+  DRYML: Compiled app/views/front/index.dryml in 2.17s
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" LIMIT 30[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+Completed in 2375ms (View: 2365, DB: 7) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-30 23:34:08) [GET]
+
+ActionController::RoutingError (No route matches "/summary" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing FrontController#search (for 127.0.0.1 at 2010-06-30 23:34:16) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/core.dryml in 0.05s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_core.dryml in 0.24s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_support.dryml in 0.02s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_document_tags.dryml in 0.04s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_pages.dryml in 0.24s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_editing.dryml in 0.10s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_forms.dryml in 0.41s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_navigation.dryml in 0.06s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_plus.dryml in 0.16s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_generics.dryml in 0.03s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_lifecycles.dryml in 0.01s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_summary.dryml in 0.20s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid_user_pages.dryml in 0.27s
+  DRYML: Compiled c:/Ruby/lib/ruby/gems/1.8/gems/hobo-1.0.0/taglibs/rapid.dryml in 1.80s
+  DRYML: Compiled app/views/taglibs/auto/rapid/cards.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/auto/rapid/pages.dryml in 0.13s
+  DRYML: Compiled app/views/taglibs/auto/rapid/forms.dryml in 0.11s
+  DRYML: Compiled app/views/taglibs/themes/clean/clean.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/application.dryml in 2.08s
+
+ActionView::MissingTemplate (Missing template front/search.erb in view path app/views):
+  hobo (1.0.0) lib/hobo/dryml/template_handler.rb:173:in `find_template'
+  hobo (1.0.0) lib/hobo/controller.rb:23:in `call'
+  hobo (1.0.0) lib/hobo/controller.rb:23:in `included_in_class'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing FrontController#index (for 127.0.0.1 at 2010-06-30 23:37:13) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering front/index
+  DRYML: Compiled app/views/taglibs/application.dryml in 0.39s
+  DRYML: Compiled app/views/front/index.dryml in 0.42s
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" LIMIT 30[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+Completed in 538ms (View: 529, DB: 9) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-30 23:37:18) [GET]
+
+ActionController::RoutingError (No route matches "/index2" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-30 23:37:23) [GET]
+
+ActionController::RoutingError (No route matches "/index2.dryml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-30 23:37:36) [GET]
+
+ActionController::RoutingError (No route matches "/front/index2.dryml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing FrontController#index2 (for 127.0.0.1 at 2010-06-30 23:37:41) [GET]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering front/index2
+  DRYML: Compiled app/views/front/index2.dryml in 0.34s
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" LIMIT 30[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+Completed in 402ms (View: 390, DB: 8) | 200 OK [http://localhost/front/index2]
