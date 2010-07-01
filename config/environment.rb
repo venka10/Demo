@@ -8,8 +8,6 @@ RAILS_DUMMY_CONSTANT=1
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
 
-RAILS_DUMMY_CONSTANT=2
-
 Rails::Initializer.run do |config|
   config.gem 'hobo'
 
