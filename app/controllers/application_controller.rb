@@ -7,4 +7,6 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+
+  edit_from_new_branch :all
 end
